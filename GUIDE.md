@@ -4,8 +4,6 @@
 - [Getting Started](#getting-started)
 - [Using the App](#using-the-app)
 - [Cart Management](#cart-management)
-- [Checkout Process](#checkout-process)
-- [Account Features](#account-features)
 - [Best Practices](#best-practices)
 
 ## Getting Started
@@ -30,167 +28,84 @@
    npm start
    ```
 
-### First Time Setup
-1. Open the application
-2. Browse available products
-3. Add items to cart
-4. Proceed to checkout
-
 ## Using the App
 
 ### Browsing Products
 
 #### Product List
 - View all available products
-- Sort by price or name
-- Filter by category
-- Search for specific items
+- See product images
+- Read product descriptions
+- Check product prices
 
 #### Product Details
-- Click product for details
-- View full description
-- See available options
-- Check stock status
+Each product shows:
+- High-quality image
+- Product name
+- Detailed description
+- Price in USD
+- "Add to Cart" button
 
-### Product Categories
-- Electronics
-- Clothing
-- Accessories
-- Home & Living
+### Available Products
+Currently, the app offers three premium products:
+1. Wireless Headphones ($99.99)
+   - Premium noise-cancelling
+   - 30-hour battery life
+   
+2. Smart Watch ($199.99)
+   - Fitness tracking
+   - Heart rate monitoring
+   - Smartphone notifications
+   
+3. Bluetooth Speaker ($79.99)
+   - Waterproof
+   - Portable
+   - 360° immersive sound
 
 ## Cart Management
 
 ### Adding Items
 1. Browse products
-2. Click "Add to Cart"
-3. Select quantity
-4. Confirm addition
-
-### Modifying Cart
-- Adjust quantities
-- Remove items
-- Save for later
-- Clear entire cart
+2. Click "Add to Cart" button with plus icon
+3. Item is immediately added to cart
 
 ### Cart Features
-- Real-time total calculation
-- Tax estimation
-- Shipping cost preview
-- Quantity limits
+- View all added items
+- See subtotal amount
+- Empty cart notification
+- Continue shopping option
+- Proceed to checkout button
 
-## Checkout Process
-
-### Steps to Checkout
-1. Review cart
-2. Enter shipping info
-3. Choose payment method
-4. Confirm order
-
-### Shipping Options
-- Standard delivery
-- Express shipping
-- Local pickup
-- International shipping
-
-### Payment Methods
-- Credit/Debit cards
-- PayPal
-- Bank transfer
-- Cash on delivery
-
-## Account Features
-
-### Guest Shopping
-- Browse products
-- Add to cart
-- Complete purchase
-- No account needed
-
-### Registered Users
-- Order history
-- Saved addresses
-- Wishlist
-- Quick checkout
-
-### Account Management
-- Update profile
-- Change password
-- Manage addresses
-- View orders
+### Cart Display
+- Product images
+- Product names
+- Individual prices
+- Total amount
+- Shipping info notice
 
 ## Best Practices
 
 ### Shopping Tips
-1. Compare prices
-2. Check descriptions
-3. Review quantities
-4. Verify shipping costs
+1. Review product descriptions carefully
+2. Check total amount before checkout
+3. Verify items in cart
+4. Use continue shopping for more items
 
-### Security
-1. Use secure connection
-2. Protect password
-3. Check order details
-4. Verify payments
-
-### Order Management
-1. Save order numbers
-2. Track shipments
-3. Keep receipts
-4. Contact support if needed
-
-## Demo Mode
-
-### Try the Demo
-Use our demo account:
-```
-Email: demo@example.com
-Password: demo123
-```
-
-### Demo Features
-- Pre-filled cart
-- Sample products
-- Test checkout
-- All features enabled
-
-## Tips & Tricks
-
-### Shopping Efficiently
-1. Use search filters
-2. Compare similar items
-3. Check stock levels
-4. Save favorites
-
-### Saving Money
-1. Watch for deals
-2. Bundle items
-3. Calculate shipping
-4. Use saved items
-
-### Quick Navigation
-1. Use search bar
-2. Apply filters
-3. Sort results
-4. Use categories
+### App Navigation
+1. Browse all products on main page
+2. Use cart panel for review
+3. Continue shopping as needed
+4. Proceed to checkout when ready
 
 ## Support
 
 ### Getting Help
 1. Check this guide
-2. Read troubleshooting
-3. Contact support
-4. Submit issues
+2. Read troubleshooting guide
+3. Submit GitHub issue
+4. Contact maintainers
 
 ### Feedback
-1. Rate products
-2. Submit reviews
-3. Report issues
-4. Suggest features
-
-## Updates
-
-### Staying Current
-1. Check for updates
-2. Read changelogs
-3. Follow announcements
-4. Update regularly
+1. Report issues on GitHub
+2. Suggest improvements
+3. Contribute to development
