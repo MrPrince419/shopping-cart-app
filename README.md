@@ -106,6 +106,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 - Shadcn for the amazing UI components
 - The React and TypeScript communities
-
-## 📞 Contact
-Project Link: [https://github.com/MrPrince419/shopping-cart-app](https://github.com/MrPrince419/shopping-cart-app)
