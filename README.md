@@ -5,7 +5,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC.svg)](https://tailwindcss.com/)
 
-[Add a screenshot or GIF of your application here]
 
 ## 🌟 Overview
 A modern, responsive shopping cart application built with React, TypeScript, and Tailwind CSS. This project demonstrates best practices in front-end development, state management, and user interface design.
