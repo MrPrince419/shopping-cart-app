@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1280" height="640" fill="#f1f8e9"/>
+    
+    <!-- Decorative Elements -->
+    <circle cx="200" cy="320" r="300" fill="#c8e6c9" opacity="0.5"/>
+    <circle cx="1080" cy="320" r="300" fill="#c8e6c9" opacity="0.5"/>
+    
+    <!-- Main Content -->
+    <g transform="translate(440, 180)">
+        <!-- Shopping Cart Icon -->
+        <path d="M400 120h-300.3l-3.6-18.1c-0.8-4-4.3-6.9-8.4-6.9h-50.7c-4.7 0-8.5 3.8-8.5 8.5s3.8 8.5 8.5 8.5h44l54 270c0.8 4 4.3 6.9 8.4 6.9h200c4.7 0 8.5-3.8 8.5-8.5s-3.8-8.5-8.5-8.5h-193.3l-7.2-36h200.5c4.1 0 7.6-2.9 8.4-6.9l25-125c0.9-4.5-2.5-8.7-7.1-8.7z" fill="#43a047"/>
+        
+        <!-- Title -->
+        <text x="200" y="50" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2e7d32" text-anchor="middle">Shopping Cart App</text>
+        
+        <!-- Subtitle -->
+        <text x="200" y="100" font-family="Arial, sans-serif" font-size="24" fill="#43a047" text-anchor="middle">Built with React + TypeScript</text>
+    </g>
+    
+    <!-- Features -->
+    <g transform="translate(340, 400)">
+        <text x="300" y="40" font-family="Arial, sans-serif" font-size="20" fill="#2e7d32" text-anchor="middle">✨ Modern Design</text>
+        <text x="300" y="80" font-family="Arial, sans-serif" font-size="20" fill="#2e7d32" text-anchor="middle">🛒 Real-time Cart Updates</text>
+        <text x="300" y="120" font-family="Arial, sans-serif" font-size="20" fill="#2e7d32" text-anchor="middle">📱 Fully Responsive</text>
+    </g>
+    
+    <!-- GitHub Link -->
+    <text x="640" y="580" font-family="Arial, sans-serif" font-size="18" fill="#43a047" text-anchor="middle">github.com/MrPrince419/shopping-cart-app</text>
+</svg>

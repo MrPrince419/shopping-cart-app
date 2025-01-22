@@ -1,13 +1,14 @@
 import React from 'react';
-import { ShoppingCart } from 'lucide-react';
 import { useCart } from '../hooks/useCart';
+import { ShoppingCart } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
-  const { totalItems } = useCart();
+  const { items } = useCart();
+  const totalItems = items.reduce((total, item) => total + item.quantity, 0);
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
@@ -16,12 +17,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="flex justify-between items-center">
             <h1 className="text-2xl font-bold text-gray-900">Shopping Cart</h1>
             <div className="relative">
-              <span 
-                className="absolute -top-2 -right-2 bg-blue-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-medium"
-              >
-                {totalItems}
-              </span>
               <ShoppingCart className="w-6 h-6 text-gray-700" />
+              {totalItems > 0 && (
+                <span 
+                  className="absolute -top-2 -right-2 bg-blue-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-medium"
+                >
+                  {totalItems}
+                </span>
+              )}
             </div>
           </div>
         </div>
@@ -36,7 +39,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <footer className="bg-white border-t mt-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <p className="text-center text-gray-500 text-sm">
-            © {new Date().getFullYear()} Shopping Cart App. All rights reserved.
+            &copy; {new Date().getFullYear()} Shopping Cart App. All rights reserved.
           </p>
         </div>
       </footer>

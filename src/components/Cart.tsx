@@ -8,31 +8,31 @@ const Cart: React.FC = () => {
 
   if (items.length === 0) {
     return (
-      <div className="bg-white p-8 rounded-lg shadow-md text-center">
+      <div className="bg-green-50 p-8 rounded-xl shadow-sm border border-green-100">
         <div className="flex flex-col items-center gap-4">
-          <ShoppingCart className="w-16 h-16 text-gray-400" />
-          <p className="text-gray-500">Your cart is empty</p>
-          <p className="text-sm text-gray-400">Start adding some items to your cart!</p>
+          <ShoppingCart className="w-16 h-16 text-green-400" />
+          <p className="text-green-700 font-medium">Your cart is empty</p>
+          <p className="text-sm text-green-600">Start adding some items to your cart!</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md">
+    <div className="bg-green-50 rounded-xl shadow-sm border border-green-100">
       <div className="p-6">
-        <h2 className="text-xl font-semibold text-gray-900 mb-6">Shopping Cart</h2>
+        <h2 className="text-2xl font-bold mb-6 text-green-800">Shopping Cart</h2>
         <div className="space-y-6">
           {items.map((item) => (
             <CartItem key={item.id} product={item} />
           ))}
         </div>
-        <div className="mt-8 pt-6 border-t border-gray-200">
-          <div className="flex justify-between text-base font-medium text-gray-900">
+        <div className="mt-8 pt-6 border-t border-green-200">
+          <div className="flex justify-between text-base font-medium text-green-900">
             <p>Subtotal</p>
             <p className="font-bold">${totalAmount.toFixed(2)}</p>
           </div>
-          <p className="mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-sm text-green-600">
             Shipping and taxes calculated at checkout.
           </p>
           <div className="mt-6">
