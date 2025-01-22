@@ -72,6 +72,8 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+## 🚀 **[Live Demo](https://mrprince419.github.io/shopping-cart-app)**
+
 ## 💡 Usage
 1. Browse through the product catalog
 2. Click '+' to add items to your cart
