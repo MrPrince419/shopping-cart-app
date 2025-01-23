@@ -33,6 +33,11 @@ A modern, responsive shopping cart application built with React, TypeScript, and
 - Responsive design using Tailwind CSS flexbox/grid
 - Clean code architecture with separation of concerns
 
+## 🌐 Live Demo
+**[Check out the live demo here!](https://mrprince419.github.io/shopping-cart-app)**
+
+Try it out: Add items to cart, adjust quantities, and see real-time price updates!
+
 ## 🏗️ Project Structure
 ```
 shopping-cart-app/
@@ -70,8 +75,6 @@ npm run dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 🚀 **[Live Demo](https://mrprince419.github.io/shopping-cart-app)**
 
 ## 💡 Usage
 1. Browse through the product catalog
